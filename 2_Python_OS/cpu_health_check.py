@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+
+#to make it executable:  chmod +x cpu_health_check.py
+#to execute it:  ./cpu_health_check.py
+
 import shutil
 import psutil
 
