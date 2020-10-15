@@ -1,4 +1,4 @@
-# Google__Automation_Python
+# Google_Automation_Python
 This is where I keep records of practical exercises from Google IT Automation with Python Professional Certificate Programme.
 
 The site is below:
