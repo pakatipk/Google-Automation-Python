@@ -11,6 +11,7 @@ def check_guests():
 file = open("guests.txt","w")
 for name in initial_guests:
     file.write(name + "\n")
+file.close()
 check_guests()
 
 #adding new guests
@@ -20,15 +21,14 @@ with open("guests.txt","a") as file:
         file.write(name + "\n")
 check_guests()
 
-#removing the guests that have checked out
+#removing the guests who have checked out
 checkout_guests = ["Shingo","Taiki"]
 temp_list = []
-
 with open("guests.txt","r") as file:
     for name in file:
         temp_list.append(name.strip())
 with open("guests.txt","w") as file:
     for name in temp_list:
         if name not in checkout_guests:
-            file.write(name + "\n")
+            file.write(name + " ")
 check_guests()
