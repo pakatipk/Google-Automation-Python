@@ -1,4 +1,4 @@
-#this this how to modify file (read/write/append/delete)
+#THIS IS HOW TO MODIFY FILE (read/write/append/delete)
 
 #check if guests.txt file have right names written
 def print_guests():
